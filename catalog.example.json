@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "examples": [
+    {
+      "id": "NytraQuest.QuestEssentials",
+      "provider": "NytraQuest",
+      "title": "Quest Essentials",
+      "description": "An annotated example of a complete quest workflow.",
+      "category": "Getting Started",
+      "version": "1.0.0",
+      "engineMajor": 5,
+      "engineMinorMin": 8,
+      "engineMinorMax": 8,
+      "pluginVersionMin": 1,
+      "pluginVersionMax": 1,
+      "delivery": "content",
+      "url": "https://github.com/TalaEsenlikler/NytraExamples/releases/download/quest-essentials-v1.0.0/QuestEssentials-1.0.0-UE5.8.zip",
+      "bytes": 123456,
+      "sha256": "REPLACE_WITH_THE_EXACT_64_CHARACTER_SHA256_OF_THE_ZIP",
+      "contentRoot": "NytraExamples/Quest/QuestEssentials",
+      "openAsset": "/Game/NytraExamples/Quest/QuestEssentials/L_Example.L_Example",
+      "dependencies": [
+        { "plugin": "NytraCore", "versionMin": 1, "versionMax": 1 }
+      ]
+    }
+  ]
+}
+
