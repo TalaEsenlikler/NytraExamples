@@ -1,0 +1,15 @@
+# Release attachments belong in GitHub Releases, never Git history.
+*.zip
+*.7z
+*.rar
+*.uasset
+*.umap
+*.uexp
+*.ubulk
+*.uproject
+Content/
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
