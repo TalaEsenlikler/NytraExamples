@@ -1,7 +1,14 @@
 # Nytra Examples
 
 Public distribution catalog for optional Nytra examples. Plugin source remains in
-its own repositories. No example packages are published yet.
+its own repositories.
+
+## Available examples
+
+- [Nytra Core Essentials](guides/CoreEssentials.md) — playable Blueprint stations,
+  variables, bindings, tasks, and save/load. [UE 5.8 release](https://github.com/TalaEsenlikler/NytraExamples/releases/tag/core-essentials-v1.0.0).
+
+Install through **Tools → Nytra Examples** in a project with a compatible Nytra Core plugin.
 
 Nytra Examples reads `catalog.json` from the stable `main` branch. Each enabled
 plugin registers its provider and this catalog URL; entries for other providers
@@ -66,7 +73,7 @@ setting, which would restrict editing individual attachments.
 
 ## Storage and withdrawal
 
-Commit only catalog metadata and publishing documentation to this repository.
+Commit only catalog metadata, preview images, and documentation to this repository.
 Never commit example ZIPs, Unreal assets, or project source here, including through
 Git LFS. Upload ZIPs as GitHub Release attachments instead. Attachments are outside
 Git history; checking out an old catalog commit cannot recreate a deleted ZIP.
@@ -88,13 +95,15 @@ may briefly show a withdrawn entry. HTTP 404/410 downloads report that the file 
 no longer available and refresh the catalog; there is no mirror fallback. Removal
 cannot recall copies users already downloaded or stop every in-flight download.
 
-Installation always requires a user action. Existing content is never overwritten,
-including modified examples. A newer compatible version is labelled as available;
-install it into a separate project to compare or migrate changes deliberately.
+Installation always requires a user action. Existing content is never silently
+overwritten. Updates show a file review and back up affected files before replacement;
+you can keep your changes by cancelling the update.
 
 ## Licensing
 
 This repository does not relicense Nytra plugins or third-party content. Each
 published package must state its applicable licenses and third-party notices.
-No packages are published until their distribution permissions are established.
+See each example's guide and release for third-party provenance. The Essentials
+grid materials and lighting originate from Epic's Game Animation Sample and remain
+subject to their original license; they are not relicensed by this repository.
 
