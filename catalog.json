@@ -1,4 +1,28 @@
 {
   "schemaVersion": 1,
-  "examples": []
+  "examples": [
+    {
+      "id": "NytraCore.Essentials",
+      "provider": "NytraCore",
+      "title": "Nytra Core Essentials",
+      "description": "Explore a playable Blueprint training room. Route power to a gate and operate a cargo lift using variables, Set Parameter, branches, signals, property bindings, and reusable tasks. Includes save/load with resume and snap restoration.",
+      "category": "Getting Started",
+      "version": "1.0.0",
+      "delivery": "content",
+      "url": "https://github.com/TalaEsenlikler/NytraExamples/releases/download/core-essentials-v1.0.0/NytraCoreEssentials-1.0.0-UE5.8.zip",
+      "sha256": "b401a9c2dcbe6825a9dd9728677bd039b5eb993e92c6fbbab749a367710ed17e",
+      "bytes": 33619827,
+      "contentRoot": "NytraExamples/NytraCore/Essentials",
+      "openAsset": "/Game/NytraExamples/NytraCore/Essentials/Maps/L_CoreEssentials.L_CoreEssentials",
+      "engineMajor": 5,
+      "engineMinorMin": 8,
+      "engineMinorMax": 8,
+      "pluginVersionMin": 1,
+      "pluginVersionMax": 1,
+      "releaseNotes": "Initial release: Power Routing and Cargo Lift stations, Blueprint interaction, and save/load demonstrating resume and snap restoration. Save with 5; load with 9.",
+      "thumbnailUrl": "https://raw.githubusercontent.com/TalaEsenlikler/NytraExamples/a9226bbc606822e8338731c1cb09a0959c834525/images/core-essentials-1.0.0.png",
+      "thumbnailSha256": "f9a0ed4b71c7cc8a021af23f84db8ff30274173d5651fe11b2e2abf543061864",
+      "thumbnailBytes": 1250297
+    }
+  ]
 }
